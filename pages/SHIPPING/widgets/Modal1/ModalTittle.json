@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -38,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 58,
   "shouldTruncate": false,
-  "text": "",
+  "text": "{{Table1.selectedRow.SHIPPING}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,

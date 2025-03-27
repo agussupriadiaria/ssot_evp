@@ -11,6 +11,9 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -30,7 +33,7 @@
   "mobileRightColumn": 17,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "originalBottomRow": 13,
+  "originalBottomRow": 10,
   "originalTopRow": 6,
   "overflow": "NONE",
   "parentColumnSpace": 19.228125,
@@ -41,7 +44,7 @@
   "rightColumn": 63,
   "shouldScrollContents": true,
   "shouldTruncate": false,
-  "text": "",
+  "text": "{{Table1.selectedRow.Data1}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 6,

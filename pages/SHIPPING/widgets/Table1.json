@@ -106,6 +106,9 @@
   "dynamicTriggerPathList": [
     {
       "key": "onPageChange"
+    },
+    {
+      "key": "onRowSelected"
     }
   ],
   "enableClientSideSearch": true,
@@ -129,6 +132,7 @@
   "mobileTopRow": 12,
   "needsErrorInfo": false,
   "onPageChange": "{{Find_SHIPPING1.run()}}",
+  "onRowSelected": "{{showModal(Modal1.name);}}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
