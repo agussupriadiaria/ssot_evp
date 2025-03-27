@@ -1,24 +1,23 @@
 {
-  "gitSyncId": "67e2608f5d60ea1fa682b8a0_3227b484-513c-495a-b2e5-f30b250157fb",
+  "gitSyncId": "67e2608f5d60ea1fa682b8a0_b6b30fc3-5dcd-4cde-b236-d389eeba9433",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1292,
+          "bottomRow": 1282,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
-          "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 800,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 78,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 92,
@@ -27,7 +26,7 @@
         }
       }
     ],
-    "name": "SHIPPING",
-    "slug": "shipping"
+    "name": "ADS",
+    "slug": "ads"
   }
 }
