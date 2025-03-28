@@ -33,6 +33,26 @@
     {
       "id": "ADS",
       "isDefault": false
+    },
+    {
+      "id": "CHAT",
+      "isDefault": false
+    },
+    {
+      "id": "MP ENABLER",
+      "isDefault": false
+    },
+    {
+      "id": "FUNNEL",
+      "isDefault": false
+    },
+    {
+      "id": "CRM",
+      "isDefault": false
+    },
+    {
+      "id": "PS",
+      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {
