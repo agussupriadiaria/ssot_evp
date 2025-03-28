@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67e2608f5d60ea1fa682b8a0_a779e7dd-d15e-4f2e-8c0c-85c79a7ac119",
-  "id": "SHIPPING_Find_SHIPPING1",
+  "gitSyncId": "67e2608f5d60ea1fa682b8a0_60217cf7-c831-4abc-8697-81fe0e5bb065",
+  "id": "SHIPPING_Total_record_SHIPPING1",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -15,8 +15,8 @@
         },
         "pagination": {
           "data": {
-            "limit": "{{Table1.pageSize}}",
-            "offset": "1"
+            "limit": "20",
+            "offset": "0"
           }
         },
         "projection": {
@@ -40,8 +40,8 @@
         "sortBy": {
           "data": [
             {
-              "column": "{{Table1.sortOrder.column}}",
-              "order": "Table1.sortOrder.order !== \"desc\""
+              "column": "",
+              "order": "Ascending"
             }
           ]
         },
@@ -74,16 +74,10 @@
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
-      },
-      {
-        "key": "formData.sortBy.data"
-      },
-      {
-        "key": "formData.pagination.data"
       }
     ],
-    "executeOnLoad": true,
-    "name": "Find_SHIPPING1",
+    "executeOnLoad": false,
+    "name": "Total_record_SHIPPING1",
     "pageId": "SHIPPING",
     "userSetOnLoad": false
   }
