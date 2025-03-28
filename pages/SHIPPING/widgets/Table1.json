@@ -45,10 +45,11 @@
   ],
   "columnUpdatedAt": 1743153559371,
   "columnWidthMap": {
-    "Data1": 708,
+    "Data1": 1091,
     "Data3": 113,
-    "SHIPPING": 608
+    "SHIPPING": 518
   },
+  "compactMode": "DEFAULT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
@@ -347,7 +348,7 @@
       "isEditable": true,
       "isSaveVisible": true,
       "isVisible": false,
-      "label": "Notes",
+      "label": "Note",
       "notation": "standard",
       "originalId": "Data6",
       "sticky": "",
