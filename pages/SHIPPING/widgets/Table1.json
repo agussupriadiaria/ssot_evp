@@ -43,7 +43,7 @@
     "rowIndex",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1743144771676,
+  "columnUpdatedAt": 1743153559371,
   "columnWidthMap": {
     "Data1": 708,
     "Data3": 113,
@@ -52,6 +52,7 @@
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
+  "defaultSearchText": "",
   "defaultSelectedRowIndex": 0,
   "defaultSelectedRowIndices": [
     0
@@ -162,9 +163,9 @@
   "mobileTopRow": 13,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{Insert_SHIPPING1.run(() => {\n            showAlert(\"Successfully created!\");\n            Find_SHIPPING1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "onPageChange": "{{\n            Find_SHIPPING1.run();\n            Total_record_SHIPPING1.run()\n          }}",
-  "onRowSelected": "{{showModal()}}",
-  "onSearchTextChanged": "{{\n            Find_SHIPPING1.run();\n            Total_record_SHIPPING1.run()\n          }}",
+  "onPageChange": "{{Find_SHIPPING1.run();}}",
+  "onRowSelected": "{{showModal(Modal1.name);}}",
+  "onSearchTextChanged": "{{Total_record_SHIPPING1.run()}}",
   "onSort": "{{\n            Find_SHIPPING1.run();\n            Total_record_SHIPPING1.run()\n          }}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
