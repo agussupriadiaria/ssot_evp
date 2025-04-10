@@ -41,9 +41,10 @@
     "Data5",
     "Data6",
     "rowIndex",
+    "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1743168425815,
+  "columnUpdatedAt": 1744263832308,
   "columnWidthMap": {
     "Data1": 916.9999999999999,
     "PRODUCT_SOURCING": 689
@@ -107,6 +108,9 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -454,6 +458,39 @@
       "label": "Title",
       "notation": "standard",
       "originalId": "PRODUCT SOURCING",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "url",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "url",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/ps-67e6a2f89131190b2fda3ecc?branch=drafx&source=PS&id=\" + currentIndex)) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/ps-67e6a2f89131190b2fda3ecc?branch=drafx&source=PS&id=\" + currentIndex })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "url",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
