@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67e2608f5d60ea1fa682b8a0_b5e36f4d-2bc3-4334-9d37-0f9f38bb5f80",
-  "id": "GENERAL_Total_record_CRM1",
+  "gitSyncId": "67e2608f5d60ea1fa682b8a0_e5893aa4-7cdd-42d4-936b-da83ba6abd89",
+  "id": "GENERAL_Find_GENERAL1",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -15,8 +15,8 @@
         },
         "pagination": {
           "data": {
-            "limit": "20",
-            "offset": "0"
+            "limit": "{{Table1.pageSize}}",
+            "offset": "1"
           }
         },
         "projection": {
@@ -29,13 +29,21 @@
           "data": ""
         },
         "sheetName": {
-          "data": "CRM"
+          "data": "GENERAL"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1NXKc_cDfmR-x3UpRdbHJWHRhoJOZbEekV6zpGnDKhX0/edit"
         },
         "smartSubstitution": {
           "data": true
+        },
+        "sortBy": {
+          "data": [
+            {
+              "column": "{{Table1.sortOrder.column}}",
+              "order": "Table1.sortOrder.order !== \"desc\""
+            }
+          ]
         },
         "tableHeaderIndex": {
           "data": "1"
@@ -66,10 +74,16 @@
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
+      },
+      {
+        "key": "formData.sortBy.data"
+      },
+      {
+        "key": "formData.pagination.data"
       }
     ],
-    "executeOnLoad": false,
-    "name": "Total_record_CRM1",
+    "executeOnLoad": true,
+    "name": "Find_GENERAL1",
     "pageId": "GENERAL",
     "userSetOnLoad": false
   }

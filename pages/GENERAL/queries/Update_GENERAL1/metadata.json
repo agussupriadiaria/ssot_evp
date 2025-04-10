@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67e2608f5d60ea1fa682b8a0_e2651376-6fa4-4af3-8f0d-210281a403de",
-  "id": "GENERAL_Update_CRM1",
+  "gitSyncId": "67e2608f5d60ea1fa682b8a0_4e99c11d-a08c-40a7-b0b4-5eb664eea1e8",
+  "id": "GENERAL_Update_GENERAL1",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -32,7 +32,7 @@
           "data": "{{Table1.updatedRow}}"
         },
         "sheetName": {
-          "data": "CRM"
+          "data": "GENERAL"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1NXKc_cDfmR-x3UpRdbHJWHRhoJOZbEekV6zpGnDKhX0/edit"
@@ -65,7 +65,7 @@
       }
     ],
     "executeOnLoad": false,
-    "name": "Update_CRM1",
+    "name": "Update_GENERAL1",
     "pageId": "GENERAL",
     "userSetOnLoad": false
   }
