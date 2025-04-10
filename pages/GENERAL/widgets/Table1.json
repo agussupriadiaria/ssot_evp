@@ -33,6 +33,7 @@
   },
   "columnOrder": [
     "Index",
+    "GENERAL",
     "Data1",
     "Data2",
     "Data3",
@@ -40,10 +41,9 @@
     "Data5",
     "Data6",
     "rowIndex",
-    "GENERAL",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1744278021197,
+  "columnUpdatedAt": 1744278710258,
   "columnWidthMap": {
     "CRM": 485,
     "Data1": 1140
@@ -106,9 +106,6 @@
       "key": "tableData"
     },
     {
-      "key": "totalRecordsCount"
-    },
-    {
       "key": "primaryColumns.GENERAL.computedValue"
     }
   ],
@@ -143,7 +140,7 @@
       "key": "onRowSelected"
     }
   ],
-  "enableClientSideSearch": false,
+  "enableClientSideSearch": true,
   "flexVerticalAlignment": "start",
   "horizontalAlignment": "LEFT",
   "inlineEditingSaveOption": "ROW_LEVEL",
@@ -164,9 +161,9 @@
   "mobileTopRow": 12,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{Insert_GENERAL1.run(() => {\n            showAlert(\"Successfully created!\");\n            Find_GENERAL1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "onPageChange": "{{\n            Find_GENERAL1.run();\n            Total_record_GENERAL1.run()\n          }}",
+  "onPageChange": "{{Find_GENERAL1.run();}}",
   "onRowSelected": "{{showModal(Modal1.name);}}",
-  "onSearchTextChanged": "{{\n            Find_GENERAL1.run();\n            Total_record_GENERAL1.run()\n          }}",
+  "onSearchTextChanged": "{{Total_record_GENERAL1.run();}}",
   "onSort": "{{\n            Find_GENERAL1.run();\n            Total_record_GENERAL1.run()\n          }}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
@@ -417,15 +414,15 @@
       "horizontalAlignment": "LEFT",
       "id": "GENERAL",
       "index": 1,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "GENERAL",
+      "isVisible": true,
+      "label": "Title",
       "notation": "standard",
       "originalId": "GENERAL",
       "sticky": "",
@@ -508,7 +505,7 @@
   "tableData": "{{Find_GENERAL1.data}}",
   "textSize": "0.875rem",
   "topRow": 12,
-  "totalRecordsCount": "{{Total_record_GENERAL1.data.length}}",
+  "totalRecordsCount": "200",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

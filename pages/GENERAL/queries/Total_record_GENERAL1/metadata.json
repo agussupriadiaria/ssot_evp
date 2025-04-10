@@ -68,7 +68,7 @@
         "key": "formData.where.data"
       }
     ],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Total_record_GENERAL1",
     "pageId": "GENERAL",
     "userSetOnLoad": false
