@@ -44,7 +44,7 @@
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1744297728277,
+  "columnUpdatedAt": 1744297808032,
   "columnWidthMap": {
     "Data1": 916.9999999999999,
     "Index": 60,
@@ -113,6 +113,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.displayText"
     }
   ],
   "dynamicPropertyPathList": [
@@ -473,9 +476,10 @@
       "allowSameOptionsInNewRow": true,
       "buttonStyle": "rgb(3, 179, 101)",
       "columnType": "url",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ('')) : '' })()}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://app.appsmith.com/app/ssot-evp/ps-67ecb3317579563100305be4?branch=drafx&rowId=\" + currentRow.Index )) : \"https://app.appsmith.com/app/ssot-evp/ps-67ecb3317579563100305be4?branch=drafx&rowId=\" + currentRow.Index  })()}}",
       "currencyCode": "USD",
       "decimals": 0,
+      "displayText": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://app.appsmith.com/app/ssot-evp/ps-67ecb3317579563100305be4?branch=drafx&rowId=\" + currentRow.Index )) : \"https://app.appsmith.com/app/ssot-evp/ps-67ecb3317579563100305be4?branch=drafx&rowId=\" + currentRow.Index  })()}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
