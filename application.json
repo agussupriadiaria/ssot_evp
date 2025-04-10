@@ -27,8 +27,12 @@
   "icon": "bag",
   "pages": [
     {
-      "id": "SHIPPING",
+      "id": "GENERAL",
       "isDefault": true
+    },
+    {
+      "id": "SHIPPING",
+      "isDefault": false
     },
     {
       "id": "ADS",
