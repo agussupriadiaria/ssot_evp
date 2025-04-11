@@ -510,7 +510,7 @@
       "id": "customColumn1",
       "index": 10,
       "isCellEditable": false,
-      "isCellVisible": true,
+      "isCellVisible": false,
       "isDerived": true,
       "isDisabled": false,
       "isDiscardVisible": true,
