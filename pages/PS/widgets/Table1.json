@@ -47,7 +47,7 @@
   "columnUpdatedAt": 1744297808032,
   "columnWidthMap": {
     "Data1": 916.9999999999999,
-    "Index": 60,
+    "Index": 92,
     "PRODUCT_SOURCING": 689,
     "rowIndex": 113
   },
@@ -429,7 +429,7 @@
       "isEditable": false,
       "isSaveVisible": true,
       "isVisible": true,
-      "label": "ID",
+      "label": "Index",
       "notation": "standard",
       "originalId": "Index",
       "sticky": "",

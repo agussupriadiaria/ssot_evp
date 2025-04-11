@@ -60,6 +60,10 @@
     {
       "id": "PS",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
