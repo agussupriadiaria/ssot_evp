@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67f79cc494bd1a7952cfbfdf_0e265f69-9508-4a38-90d0-d200db4912ab",
-  "id": "pageCRM_Find_PS",
+  "gitSyncId": "67ecb32d7579563100305bda_cec1e580-d9b4-4b73-b216-ba03794fcace",
+  "id": "pageCRM_Find_CRM",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "PS"
+          "data": "CRM"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1NXKc_cDfmR-x3UpRdbHJWHRhoJOZbEekV6zpGnDKhX0/edit"
@@ -71,7 +71,7 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Find_PS",
+    "name": "Find_CRM",
     "pageId": "pageCRM",
     "userSetOnLoad": false
   }
