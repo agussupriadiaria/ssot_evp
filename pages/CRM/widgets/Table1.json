@@ -41,9 +41,10 @@
     "Data5",
     "Data6",
     "rowIndex",
+    "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1743167961292,
+  "columnUpdatedAt": 1744375475925,
   "columnWidthMap": {
     "CRM": 485,
     "Data1": 1140
@@ -107,6 +108,12 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.displayText"
     }
   ],
   "dynamicPropertyPathList": [
@@ -454,6 +461,40 @@
       "label": "Index",
       "notation": "standard",
       "originalId": "Index",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "Link",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "url",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( \"https://app.appsmith.com/app/ssot-evp/crm-67ecb3317579563100305be8?branch=drafx&rowId=\" + (currentRow.Index - 1) )) :  \"https://app.appsmith.com/app/ssot-evp/crm-67ecb3317579563100305be8?branch=drafx&rowId=\" + (currentRow.Index - 1)  })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "displayText": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( \"https://app.appsmith.com/app/ssot-evp/crm-67ecb3317579563100305be8?branch=drafx&rowId=\" + (currentRow.Index - 1) )) :  \"https://app.appsmith.com/app/ssot-evp/crm-67ecb3317579563100305be8?branch=drafx&rowId=\" + (currentRow.Index - 1)  })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Link",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
