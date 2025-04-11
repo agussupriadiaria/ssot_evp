@@ -559,7 +559,7 @@
       "label": "Copy",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{\ncopyToClipboard(Table1.selectedRow.Link);\n\nshowAlert(\"Link disalin ke clipboard\", \"success\");\n\nFind_PS1.data.run;\n\n}}",
+      "onClick": "{{ \ncopyToClipboard(Table1.selectedRow.Link);\nshowAlert(\"Link disalin ke clipboard\", \"success\");\nnavigateTo(\"https://app.appsmith.com/app/ssot-evp/ps-67ecb3317579563100305be4?branch=drafx\", {}, \"SAME_WINDOW\");\n}}",
       "originalId": "customColumn2",
       "sticky": "",
       "textSize": "0.875rem",
