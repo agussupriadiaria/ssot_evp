@@ -62,6 +62,34 @@
       "isDefault": false
     },
     {
+      "id": "pageGENERAL",
+      "isDefault": false
+    },
+    {
+      "id": "pageSHIPPING",
+      "isDefault": false
+    },
+    {
+      "id": "pageADS",
+      "isDefault": false
+    },
+    {
+      "id": "pageCHAT",
+      "isDefault": false
+    },
+    {
+      "id": "pageMP ENABLER",
+      "isDefault": false
+    },
+    {
+      "id": "pageFUNNEL",
+      "isDefault": false
+    },
+    {
+      "id": "pageCRM",
+      "isDefault": false
+    },
+    {
       "id": "pagePS",
       "isDefault": false
     }

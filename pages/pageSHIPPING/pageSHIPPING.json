@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "67f79cc494bd1a7952cfbfdf_d8758c9c-8ae4-458f-a1b2-40d0d86d379b",
+  "gitSyncId": "67f79cc494bd1a7952cfbfdf_c4868e12-478e-444a-af74-bb76987c99c9",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "pagePS",
-    "slug": "pageps"
+    "name": "pageSHIPPING",
+    "slug": "pageshipping"
   }
 }
