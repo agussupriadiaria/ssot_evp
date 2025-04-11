@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 5,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -20,7 +20,7 @@
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "fontSize": "1rem",
-  "fontStyle": "",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "x6x3h6wijl",
@@ -33,23 +33,23 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 33,
-  "originalTopRow": 29,
+  "originalBottomRow": 25,
+  "originalTopRow": 21,
   "overflow": "NONE",
   "parentColumnSpace": 20.25,
-  "parentId": "0",
+  "parentId": "wogog8gojb",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_PS.data[Number(appsmith.URL.queryParams.rowId)].Data1 }}",
-  "textAlign": "LEFT",
+  "text": "{{Find_PS.data[Number(appsmith.URL.queryParams.rowId)][\"PRODUCT SOURCING\"] }}",
+  "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 8,
+  "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "awd3ow7jp3",
-  "widgetName": "Text1Copy"
+  "widgetId": "wu9qg1ppqr",
+  "widgetName": "Text1"
 }
