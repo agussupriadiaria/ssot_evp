@@ -41,12 +41,14 @@
     "Data5",
     "Data6",
     "rowIndex",
+    "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1744278710258,
+  "columnUpdatedAt": 1744517546847,
   "columnWidthMap": {
     "CRM": 485,
-    "Data1": 1140
+    "Data1": 1140,
+    "GENERAL": 428
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -107,6 +109,12 @@
     },
     {
       "key": "primaryColumns.GENERAL.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.displayText"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -457,6 +465,40 @@
       "label": "Index",
       "notation": "standard",
       "originalId": "Index",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "Link",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "url",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-general-67f9186d8234567dc6fd9273?branch=master&rowId=\" + (currentRow.Index - 1) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-general-67f9186d8234567dc6fd9273?branch=master&rowId=\" + (currentRow.Index - 1)  })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "displayText": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-general-67f9186d8234567dc6fd9273?branch=master&rowId=\" + (currentRow.Index - 1) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-general-67f9186d8234567dc6fd9273?branch=master&rowId=\" + (currentRow.Index - 1)  })()}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "customColumn1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "Link",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
