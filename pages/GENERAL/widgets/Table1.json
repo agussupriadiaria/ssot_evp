@@ -44,11 +44,13 @@
     "customColumn1",
     "EditActions1"
   ],
-  "columnUpdatedAt": 1744517546847,
+  "columnUpdatedAt": 1744517816132,
   "columnWidthMap": {
     "CRM": 485,
     "Data1": 1140,
-    "GENERAL": 428
+    "Data3": 123,
+    "GENERAL": 428,
+    "customColumn1": 224
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
