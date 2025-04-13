@@ -39,6 +39,27 @@
   "dynamicTriggerPathList": [
     {
       "key": "groupButtons.groupButtonzffcn04ps1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonzvsovn0o8b.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonrcwd7v2q8l.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton53h21ejj1g.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton38nb1bquz4.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton4u0jnc17tv.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton008hwk7cx7.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonivq4utd2qc.onClick"
     }
   ],
   "groupButtons": {
@@ -53,6 +74,7 @@
       "itemType": "BUTTON",
       "label": "SHIPPING",
       "menuItems": {},
+      "onClick": "{{navigateTo('SHIPPING', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "v16gg0ooef"
@@ -68,6 +90,7 @@
       "itemType": "BUTTON",
       "label": "CHAT",
       "menuItems": {},
+      "onClick": "{{navigateTo('CHAT', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "ao5topwb01"
@@ -83,6 +106,7 @@
       "itemType": "BUTTON",
       "label": "ADS",
       "menuItems": {},
+      "onClick": "{{navigateTo('ADS', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "9z5zzlfq7x"
@@ -98,6 +122,7 @@
       "itemType": "BUTTON",
       "label": "MP ENABLER",
       "menuItems": {},
+      "onClick": "{{navigateTo('MP ENABLER', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "6r0x375e7g"
@@ -113,6 +138,7 @@
       "itemType": "BUTTON",
       "label": "GENERAL",
       "menuItems": {},
+      "onClick": "{{navigateTo('GENERAL', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "b421fx2fya"
@@ -128,6 +154,7 @@
       "itemType": "BUTTON",
       "label": "FUNNEL",
       "menuItems": {},
+      "onClick": "{{navigateTo('FUNNEL', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "yjefeknrda"
@@ -159,6 +186,7 @@
       "itemType": "BUTTON",
       "label": "CRM",
       "menuItems": {},
+      "onClick": "{{navigateTo('CRM', {}, 'SAME_WINDOW');}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "k0hfzns70k"
@@ -177,7 +205,7 @@
   "needsErrorInfo": false,
   "orientation": "horizontal",
   "parentColumnSpace": 19.9375,
-  "parentId": "wxb8yc3t9c",
+  "parentId": "65rkz3gjmq",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -185,6 +213,6 @@
   "topRow": 2,
   "type": "BUTTON_GROUP_WIDGET",
   "version": 1,
-  "widgetId": "hrmzczqi57",
+  "widgetId": "as5hhb272h",
   "widgetName": "ButtonGroup1"
 }
