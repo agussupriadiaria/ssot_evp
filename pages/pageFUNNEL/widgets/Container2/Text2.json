@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_PS.data[Number(appsmith.URL.queryParams.rowId)].Data1 }}",
+  "text": "{{Find_FUNNEL.data[Number(appsmith.URL.queryParams.rowId)].Data1 }}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 9,
