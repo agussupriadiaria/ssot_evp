@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_SHIPPING.data[Number(appsmith.URL.queryParams.rowId)][\"SHIPPING\"] }}",
+  "text": "{{ Find_SHIPPING.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"SHIPPING\"] }}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
