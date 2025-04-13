@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67f79cc494bd1a7952cfbfdf_3f707f21-0f13-4b9a-ac89-0a842c7d8dfc",
-  "id": "INFO MP ENABLER_Find_PS",
+  "gitSyncId": "67f79cc494bd1a7952cfbfdf_07d07145-7d8d-4882-b023-6e66725688f4",
+  "id": "INFO CHAT_Find_CHAT",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "PS"
+          "data": "CHAT"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1NXKc_cDfmR-x3UpRdbHJWHRhoJOZbEekV6zpGnDKhX0/edit"
@@ -71,8 +71,8 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Find_PS",
-    "pageId": "INFO MP ENABLER",
+    "name": "Find_CHAT",
+    "pageId": "INFO CHAT",
     "userSetOnLoad": false
   }
 }
