@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_FUNNEL.data[Number(appsmith.URL.queryParams.rowId)][\"FUNNEL\"] }}",
+  "text": "{{ Find_FUNNEL.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"FUNNEL\"] }}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,

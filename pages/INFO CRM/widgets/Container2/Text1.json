@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_CRM.data[Number(appsmith.URL.queryParams.rowId)][\"CRM\"] }}",
+  "text": "{{ Find_CRM.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"CRM\"] }}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
