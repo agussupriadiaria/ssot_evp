@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_PS.data[Number(appsmith.URL.queryParams.rowId)][\"PRODUCT SOURCING\"] }}",
+  "text": "{{Find_ADS.data[Number(appsmith.URL.queryParams.rowId)][\"ADS\"] }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,

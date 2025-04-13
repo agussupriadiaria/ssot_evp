@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67f79cc494bd1a7952cfbfdf_d23a8f22-e863-41d3-8788-137ee3da4075",
-  "id": "INFO ADS_Find_PS",
+  "gitSyncId": "67f79cc494bd1a7952cfbfdf_25e077cf-c5cf-4591-88f9-4d77a5de9ded",
+  "id": "INFO SHIPPING_Find_SHIPPING",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
   "unpublishedAction": {
@@ -29,7 +29,7 @@
           "data": ""
         },
         "sheetName": {
-          "data": "PS"
+          "data": "SHIPPING"
         },
         "sheetUrl": {
           "data": "https://docs.google.com/spreadsheets/d/1NXKc_cDfmR-x3UpRdbHJWHRhoJOZbEekV6zpGnDKhX0/edit"
@@ -71,8 +71,8 @@
     },
     "dynamicBindingPathList": [],
     "executeOnLoad": true,
-    "name": "Find_PS",
-    "pageId": "INFO ADS",
+    "name": "Find_SHIPPING",
+    "pageId": "INFO SHIPPING",
     "userSetOnLoad": false
   }
 }

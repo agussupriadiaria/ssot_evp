@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{Find_MP_ENABLER.data[Number(appsmith.URL.queryParams.rowId)][\"PRODUCT SOURCING\"] }}",
+  "text": "{{Find_MP_ENABLER.data[Number(appsmith.URL.queryParams.rowId)][\"MP ENABLER\"] }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
