@@ -109,6 +109,12 @@
     },
     {
       "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "primaryColumns.customColumn1.displayText"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -493,10 +499,10 @@
       "allowSameOptionsInNewRow": true,
       "buttonStyle": "rgb(3, 179, 101)",
       "columnType": "url",
-      "computedValue": "",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-ads-67f9186d8234567dc6fd9271?branch=master&rowId=\" + (currentRow.Index - 1) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-ads-67f9186d8234567dc6fd9271?branch=master&rowId=\" + (currentRow.Index - 1)  })()}}",
       "currencyCode": "USD",
       "decimals": 0,
-      "displayText": "",
+      "displayText": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-ads-67f9186d8234567dc6fd9271?branch=master&rowId=\" + (currentRow.Index - 1) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/info-ads-67f9186d8234567dc6fd9271?branch=master&rowId=\" + (currentRow.Index - 1)  })()}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
