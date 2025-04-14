@@ -15,7 +15,7 @@
         },
         "pagination": {
           "data": {
-            "limit": "{{Table1.pageSize}}",
+            "limit": "2000",
             "offset": "1"
           }
         },
