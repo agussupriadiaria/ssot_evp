@@ -15,8 +15,8 @@
         },
         "pagination": {
           "data": {
-            "limit": "20",
-            "offset": "0"
+            "limit": "{{Table1.pageSize}}",
+            "offset": "1"
           }
         },
         "projection": {
@@ -36,6 +36,14 @@
         },
         "smartSubstitution": {
           "data": true
+        },
+        "sortBy": {
+          "data": [
+            {
+              "column": "",
+              "order": "Ascending"
+            }
+          ]
         },
         "tableHeaderIndex": {
           "data": "1"
@@ -66,6 +74,9 @@
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
+      },
+      {
+        "key": "formData.pagination.data.limit"
       }
     ],
     "executeOnLoad": false,
