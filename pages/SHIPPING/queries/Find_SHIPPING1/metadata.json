@@ -15,7 +15,7 @@
         },
         "pagination": {
           "data": {
-            "limit": "{{Table1.pageSize}}",
+            "limit": "2000",
             "offset": "1"
           }
         },
@@ -80,9 +80,6 @@
       },
       {
         "key": "formData.pagination.data"
-      },
-      {
-        "key": "formData.pagination.data.limit"
       }
     ],
     "executeOnLoad": true,
