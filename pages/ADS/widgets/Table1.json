@@ -42,9 +42,10 @@
     "Data2",
     "Data3",
     "EditActions1",
-    "customColumn1"
+    "customColumn1",
+    "Data7"
   ],
-  "columnUpdatedAt": 1744517899575,
+  "columnUpdatedAt": 1744805030347,
   "columnWidthMap": {
     "ADS": 669,
     "Data1": 899
@@ -115,6 +116,9 @@
     },
     {
       "key": "primaryColumns.customColumn1.computedValue"
+    },
+    {
+      "key": "primaryColumns.Data7.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -285,7 +289,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Data3\"]))}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"Data4\"])) :  currentRow[\"Data4\"] })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -407,6 +411,40 @@
       "label": "Note",
       "notation": "standard",
       "originalId": "Data6",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "Data7": {
+      "alias": "Data7",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Data7\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "Data7",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "Data7",
+      "notation": "standard",
+      "originalId": "Data7",
       "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
