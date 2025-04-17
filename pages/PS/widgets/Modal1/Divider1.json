@@ -1,6 +1,6 @@
 {
   "animateLoading": true,
-  "bottomRow": 9,
+  "bottomRow": 11,
   "capSide": 0,
   "capType": "nc",
   "dividerColor": "#858282",
@@ -27,7 +27,7 @@
   "rightColumn": 64,
   "strokeStyle": "solid",
   "thickness": "1",
-  "topRow": 5,
+  "topRow": 7,
   "type": "DIVIDER_WIDGET",
   "version": 1,
   "widgetId": "inestnibeg",

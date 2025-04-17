@@ -1,11 +1,10 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-  "allowAddNewRow": false,
   "animateLoading": true,
   "borderColor": "#E0DEDE",
   "borderRadius": "0.375rem",
   "borderWidth": "1",
-  "bottomRow": 80,
+  "bottomRow": 78,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -33,7 +32,6 @@
   },
   "columnOrder": [
     "Index",
-    "rowIndex",
     "PRODUCT_SOURCING",
     "Data1",
     "Data2",
@@ -41,16 +39,14 @@
     "Data4",
     "Data5",
     "Data6",
-    "customColumn1",
     "Data7",
-    "EditActions1"
+    "rowIndex",
+    "customColumn1"
   ],
-  "columnUpdatedAt": 1744805178830,
+  "columnUpdatedAt": 1744931428658,
   "columnWidthMap": {
-    "Data1": 916.9999999999999,
-    "Index": 92,
-    "PRODUCT_SOURCING": 689,
-    "rowIndex": 115
+    "Data1": 683,
+    "PRODUCT_SOURCING": 565
   },
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -95,68 +91,26 @@
       "key": "primaryColumns.Data6.computedValue"
     },
     {
+      "key": "primaryColumns.Data7.computedValue"
+    },
+    {
       "key": "primaryColumns.rowIndex.computedValue"
-    },
-    {
-      "key": "primaryColumns.EditActions1.saveButtonColor"
-    },
-    {
-      "key": "primaryColumns.EditActions1.saveBorderRadius"
-    },
-    {
-      "key": "primaryColumns.EditActions1.discardBorderRadius"
-    },
-    {
-      "key": "primaryColumns.EditActions1.isSaveDisabled"
-    },
-    {
-      "key": "primaryColumns.EditActions1.isDiscardDisabled"
-    },
-    {
-      "key": "primaryColumns.customColumn1.computedValue"
     },
     {
       "key": "primaryColumns.customColumn1.displayText"
     },
     {
-      "key": "primaryColumns.Data7.computedValue"
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
     {
       "key": "tableData"
-    },
-    {
-      "key": "primaryColumns.EditActions1.isSaveDisabled"
-    },
-    {
-      "key": "primaryColumns.EditActions1.isDiscardDisabled"
-    },
-    {
-      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "dynamicTriggerPathList": [
     {
-      "key": "onPageChange"
-    },
-    {
-      "key": "onSearchTextChanged"
-    },
-    {
-      "key": "onSort"
-    },
-    {
-      "key": "onAddNewRowSave"
-    },
-    {
-      "key": "primaryColumns.EditActions1.onSave"
-    },
-    {
       "key": "onRowSelected"
-    },
-    {
-      "key": "primaryColumns.customColumn1.onClick"
     }
   ],
   "enableClientSideSearch": true,
@@ -170,7 +124,7 @@
   "isVisibleFilters": false,
   "isVisiblePagination": true,
   "isVisibleSearch": true,
-  "key": "ul20jbm230",
+  "key": "2gj3ahjxat",
   "label": "Data",
   "leftColumn": 0,
   "minWidth": 450,
@@ -179,14 +133,11 @@
   "mobileRightColumn": 34,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onAddNewRowSave": "{{Insert_PS1.run(() => {\n            showAlert(\"Successfully created!\");\n            Find_PS1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "onPageChange": "{{\n            Find_PS1.run();\n            Total_record_PS1.run()\n          }}",
   "onRowSelected": "{{showModal(Modal1.name);}}",
-  "onSearchTextChanged": "{{Total_record_PS1.run();}}",
-  "onSort": "{{\n            Find_PS1.run();\n            Total_record_PS1.run()\n          }}",
   "parentColumnSpace": 20.25,
   "parentId": "0",
   "parentRowSpace": 10,
+  "primaryColumnId": "Index",
   "primaryColumns": {
     "Data1": {
       "alias": "Data1",
@@ -255,7 +206,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "text",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"Data4\"])) :  currentRow[\"Data4\"] })()}}",
+      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Data3\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -270,8 +221,8 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
-      "label": "Updated",
+      "isVisible": false,
+      "label": "Created by",
       "notation": "standard",
       "originalId": "Data3",
       "sticky": "",
@@ -294,15 +245,15 @@
       "horizontalAlignment": "LEFT",
       "id": "Data4",
       "index": 5,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
-      "label": "By",
+      "isVisible": true,
+      "label": "Updated",
       "notation": "standard",
       "originalId": "Data4",
       "sticky": "",
@@ -325,15 +276,15 @@
       "horizontalAlignment": "LEFT",
       "id": "Data5",
       "index": 6,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": false,
-      "label": "Flagging",
+      "label": "Updated by",
       "notation": "standard",
       "originalId": "Data5",
       "sticky": "",
@@ -356,15 +307,15 @@
       "horizontalAlignment": "LEFT",
       "id": "Data6",
       "index": 7,
-      "isCellEditable": true,
+      "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
       "isDisabled": false,
       "isDiscardVisible": true,
-      "isEditable": true,
+      "isEditable": false,
       "isSaveVisible": true,
       "isVisible": false,
-      "label": "Note",
+      "label": "Data6",
       "notation": "standard",
       "originalId": "Data6",
       "sticky": "",
@@ -378,14 +329,12 @@
       "alias": "Data7",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
       "columnType": "text",
       "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Data7\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
       "enableSort": true,
-      "fontStyle": "",
       "horizontalAlignment": "LEFT",
       "id": "Data7",
       "index": 8,
@@ -401,51 +350,6 @@
       "notation": "standard",
       "originalId": "Data7",
       "sticky": "",
-      "textColor": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "EditActions1": {
-      "alias": "EditActions1",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "editActions",
-      "computedValue": "",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "discardActionLabel": "Discard",
-      "discardBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-      "discardButtonColor": "#F22B2B",
-      "discardButtonVariant": "TERTIARY",
-      "discardIconAlign": "left",
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "EditActions1",
-      "index": 9,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveDisabled": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( !Table1.updatedRowIndices.includes(currentIndex)))}}",
-      "isSaveVisible": true,
-      "isVisible": false,
-      "label": "Save / Discard",
-      "notation": "standard",
-      "onSave": "{{Update_PS1.run(() => {\n            showAlert(\"Successfully saved!\");\n            Find_PS1.run()\n          }, () => {\n            showAlert(\"Unable to save!\");\n          })}}",
-      "originalId": "EditActions1",
-      "saveActionLabel": "Save",
-      "saveBorderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
-      "saveButtonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
-      "saveIconAlign": "left",
-      "sticky": "right",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
@@ -518,14 +422,12 @@
       "alias": "Link",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "buttonLabel": "Copy",
       "buttonStyle": "rgb(3, 179, 101)",
       "columnType": "url",
-      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/pageps-67f9186d8234567dc6fd926e?branch=master&rowId=\" + (currentRow.Index) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/pageps-67f9186d8234567dc6fd926e?branch=master&rowId=\" + (currentRow.Index)  })()}}",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/ps-67e6a2f89131190b2fda3ecc?branch=master&rowId=\" + (currentRow.Index) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/ps-67e6a2f89131190b2fda3ecc?branch=master&rowId=\" + (currentRow.Index)  })()}}",
       "currencyCode": "USD",
-      "customAlias": "",
       "decimals": 0,
-      "displayText": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/pageps-67f9186d8234567dc6fd926e?branch=master&rowId=\" + (currentRow.Index) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/pageps-67f9186d8234567dc6fd926e?branch=master&rowId=\" + (currentRow.Index)  })()}}",
+      "displayText": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (\"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/ps-67e6a2f89131190b2fda3ecc?branch=master&rowId=\" + (currentRow.Index) )) : \"https://tools-everpro.evermosa2z.com/app/ssot-knowledge-base-everpro/ps-67e6a2f89131190b2fda3ecc?branch=master&rowId=\" + (currentRow.Index)  })()}}",
       "enableFilter": true,
       "enableSort": true,
       "horizontalAlignment": "LEFT",
@@ -542,7 +444,6 @@
       "label": "Link",
       "labelColor": "#FFFFFF",
       "notation": "standard",
-      "onClick": "{{copyToClipboard('testing aja')}}",
       "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
@@ -563,7 +464,7 @@
       "enableSort": true,
       "horizontalAlignment": "LEFT",
       "id": "rowIndex",
-      "index": 8,
+      "index": 9,
       "isCellEditable": false,
       "isCellVisible": true,
       "isDerived": false,
@@ -587,15 +488,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 64,
   "searchKey": "",
-  "serverSidePaginationEnabled": false,
-  "showInlineEditingOptionDropdown": true,
   "tableData": "{{Find_PS1.data}}",
   "textSize": "0.875rem",
   "topRow": 12,
-  "totalRecordsCount": "2000",
+  "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
-  "widgetId": "i4dwh6os0a",
+  "widgetId": "dtltzde0bc",
   "widgetName": "Table1"
 }
