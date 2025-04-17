@@ -1,5 +1,5 @@
 {
-  "gitSyncId": "67e2608f5d60ea1fa682b8a0_e12b792b-33ff-4628-b111-d02f56cf7314",
+  "gitSyncId": "67e2608f5d60ea1fa682b8a0_da31246e-d667-4388-b8ad-6b700423d7ee",
   "id": "GENERAL_Total_record_GENERAL1",
   "pluginId": "google-sheets-plugin",
   "pluginType": "SAAS",
@@ -15,8 +15,8 @@
         },
         "pagination": {
           "data": {
-            "limit": "{{Table1.pageSize}}",
-            "offset": "1"
+            "limit": "20",
+            "offset": "0"
           }
         },
         "projection": {
@@ -36,14 +36,6 @@
         },
         "smartSubstitution": {
           "data": true
-        },
-        "sortBy": {
-          "data": [
-            {
-              "column": "",
-              "order": "Ascending"
-            }
-          ]
         },
         "tableHeaderIndex": {
           "data": "1"
@@ -74,12 +66,9 @@
     "dynamicBindingPathList": [
       {
         "key": "formData.where.data"
-      },
-      {
-        "key": "formData.pagination.data.limit"
       }
     ],
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "name": "Total_record_GENERAL1",
     "pageId": "GENERAL",
     "userSetOnLoad": false
