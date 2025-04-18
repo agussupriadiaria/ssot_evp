@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 37,
   "shouldTruncate": false,
-  "text": "Updated by : {{ Find_GENERAL.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId)).Data5 }}",
+  "text": "Updated by: {{\n  (Find_GENERAL.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data5: \" \" }).Data5\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 22,

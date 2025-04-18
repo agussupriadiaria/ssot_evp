@@ -92,10 +92,6 @@
     {
       "id": "INFO PS",
       "isDefault": false
-    },
-    {
-      "id": "NOT FOUND",
-      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
