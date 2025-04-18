@@ -44,7 +44,10 @@
     "customColumn1"
   ],
   "columnUpdatedAt": 1744931177563,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "CRM": 396,
+    "Data1": 519
+  },
   "customIsLoading": false,
   "customIsLoadingValue": "",
   "defaultPageSize": 0,
