@@ -1,0 +1,218 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 6,
+  "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  "buttonVariant": "SECONDARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "groupButtons.groupButtonivq4utd2qc.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton008hwk7cx7.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton4u0jnc17tv.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton38nb1bquz4.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton53h21ejj1g.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonrcwd7v2q8l.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonzvsovn0o8b.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonzffcn04ps1.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButtonzffcn04ps1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonzvsovn0o8b.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonrcwd7v2q8l.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton53h21ejj1g.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton38nb1bquz4.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton4u0jnc17tv.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton008hwk7cx7.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonivq4utd2qc.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton008hwk7cx7": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton008hwk7cx7",
+      "index": 1,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "SHIPPING",
+      "menuItems": {},
+      "onClick": "{{navigateTo('SHIPPING', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "v16gg0ooef"
+    },
+    "groupButton38nb1bquz4": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton38nb1bquz4",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "CHAT",
+      "menuItems": {},
+      "onClick": "{{navigateTo('CHAT', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "ao5topwb01"
+    },
+    "groupButton4u0jnc17tv": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton4u0jnc17tv",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "ADS",
+      "menuItems": {},
+      "onClick": "{{navigateTo('ADS', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "9z5zzlfq7x"
+    },
+    "groupButton53h21ejj1g": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton53h21ejj1g",
+      "index": 4,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "MP ENABLER",
+      "menuItems": {},
+      "onClick": "{{navigateTo('MP ENABLER', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "6r0x375e7g"
+    },
+    "groupButtonivq4utd2qc": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonivq4utd2qc",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "GENERAL",
+      "menuItems": {},
+      "onClick": "{{navigateTo('GENERAL', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "b421fx2fya"
+    },
+    "groupButtonrcwd7v2q8l": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonrcwd7v2q8l",
+      "index": 5,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "FUNNEL",
+      "menuItems": {},
+      "onClick": "{{navigateTo('FUNNEL', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "yjefeknrda"
+    },
+    "groupButtonzffcn04ps1": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonzffcn04ps1",
+      "index": 7,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "PS",
+      "menuItems": {},
+      "onClick": "{{navigateTo('PS', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "s6663ihsfi"
+    },
+    "groupButtonzvsovn0o8b": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonzvsovn0o8b",
+      "index": 6,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "CRM",
+      "menuItems": {},
+      "onClick": "{{navigateTo('CRM', {}, 'SAME_WINDOW');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "k0hfzns70k"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "nvrotmzjya",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 6,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 24,
+  "mobileTopRow": 2,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "parentColumnSpace": 19.9375,
+  "parentId": "ylw2cy3hde",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 2,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "p7gmxzdzj1",
+  "widgetName": "ButtonGroup1"
+}
