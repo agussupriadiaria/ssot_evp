@@ -70,9 +70,9 @@
       "pluginId": "google-sheets-plugin"
     },
     "dynamicBindingPathList": [],
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "name": "Find_GENERAL",
     "pageId": "INFO GENERAL",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
