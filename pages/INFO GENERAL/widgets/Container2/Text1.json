@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ Find_GENERAL.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"GENERAL\"] }}",
+  "text": "{{ \n  (Find_GENERAL.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { GENERAL: \"Not Found\" }).GENERAL \n}}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
