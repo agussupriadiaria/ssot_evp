@@ -1,6 +1,6 @@
 {
-  "gitSyncId": "67e2608f5d60ea1fa682b8a0_f41e60e9-826e-4d20-ac64-be9e9b656e42",
-  "id": "INFO GENERAL_RowValidator.handleRowCheck",
+  "gitSyncId": "67e2608f5d60ea1fa682b8a0_92fe818b-38d0-40b3-970e-bdb5a5de80b4",
+  "id": "INFO GENERAL_RowValidator.initPage",
   "pluginId": "js-plugin",
   "pluginType": "JS",
   "unpublishedAction": {
@@ -23,8 +23,8 @@
       }
     ],
     "executeOnLoad": true,
-    "fullyQualifiedName": "RowValidator.handleRowCheck",
-    "name": "handleRowCheck",
+    "fullyQualifiedName": "RowValidator.initPage",
+    "name": "initPage",
     "pageId": "INFO GENERAL",
     "userSetOnLoad": true
   }
