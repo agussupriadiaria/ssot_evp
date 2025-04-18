@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ Find_MP_ENABLER.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId)).Data1 }}",
+  "text": "{{ \n  (Find_MP_ENABLER.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data1: \"Halaman yang kamu cari sudah tidak ditemukan !\" }).Data1 \n}}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 9,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "oesfhjkyoy",
+  "widgetId": "uligw0wuoe",
   "widgetName": "Text2"
 }

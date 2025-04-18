@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ Find_CHAT.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"EVERPRO CHAT\"] }}",
+  "text": "{{ \n  (Find_CHAT.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || {[\"EVERPRO CHAT\"]: \"❌ ❌ Konten Tidak Tersedia ❌ ❌\" })[\"EVERPRO CHAT\"] \n}}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "nux5uu50nu",
+  "widgetId": "gxp3gns493",
   "widgetName": "Text1"
 }

@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 37,
   "shouldTruncate": false,
-  "text": "Updated by : {{ Find_FUNNEL.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId)).Data5 }}",
+  "text": "Updated by: {{\n  (Find_FUNNEL.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data5: \" \" }).Data5\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 22,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "focgenkgzy",
+  "widgetId": "c7kxl2lwg1",
   "widgetName": "Text8"
 }

@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ Find_SHIPPING.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId)).Data1 }}\n",
+  "text": "{{ \n  (Find_SHIPPING.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data1: \"Halaman yang kamu cari sudah tidak ditemukan !\" }).Data1 \n}}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 9,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "7mfd8xhg2c",
+  "widgetId": "3x2ysxohfe",
   "widgetName": "Text2"
 }

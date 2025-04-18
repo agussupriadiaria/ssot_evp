@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ Find_MP_ENABLER.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"MP ENABLER\"] }}",
+  "text": "{{ \n  (Find_MP_ENABLER.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || {[\"MP ENABLER\"]: \"❌ ❌ Konten Tidak Tersedia ❌ ❌\" })[\"MP ENABLER\"] \n}}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ydyb367i8f",
+  "widgetId": "u666y8up29",
   "widgetName": "Text1"
 }

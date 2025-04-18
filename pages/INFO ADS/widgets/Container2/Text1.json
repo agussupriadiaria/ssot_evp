@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ Find_ADS.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId))[\"ADS\"] }}\n",
+  "text": "{{ \n  (Find_ADS.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { ADS: \"❌ ❌ Konten Tidak Tersedia ❌ ❌\" }).ADS \n}}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "hhjiji7uj9",
+  "widgetId": "bbckpnvgb6",
   "widgetName": "Text1"
 }

@@ -9,7 +9,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "a9fef458w4",
-  "leftColumn": 1,
+  "leftColumn": 0,
   "minWidth": 450,
   "mobileBottomRow": 41,
   "mobileLeftColumn": 1,
@@ -30,6 +30,6 @@
   "topRow": 14,
   "type": "DIVIDER_WIDGET",
   "version": 1,
-  "widgetId": "e8b63nf4lc",
+  "widgetId": "xv3ie71ucb",
   "widgetName": "Divider2"
 }

@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 17,
   "shouldTruncate": false,
-  "text": "Created: {{ Find_CRM.data.find(row => row[\"Index\"] == Number(appsmith.URL.queryParams.rowId)).Data2 }}",
+  "text": "Created: {{\n  (Find_CRM.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data2: \" \" }).Data2\n}}",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 18,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "3zvhhwt1bs",
+  "widgetId": "xnifr7pwth",
   "widgetName": "Text5"
 }

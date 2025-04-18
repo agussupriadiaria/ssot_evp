@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ \n  (Find_GENERAL.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data1: \"Info sudah dipindah.\" }).Data1 \n}}\n",
+  "text": "{{ \n  (Find_GENERAL.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { Data1: \"Halaman yang kamu cari sudah tidak ditemukan !\" }).Data1 \n}}\n",
   "textAlign": "LEFT",
   "textColor": "#231F20",
   "topRow": 9,
