@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{ \n  (Find_PS.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || { ADS: \"❌ ❌ Konten Tidak Tersedia ❌ ❌\" }).ADS \n}}\n",
+  "text": "{{ \n  (Find_PS.data.find(row => Number(row[\"Index\"]) === Number(appsmith.URL.queryParams.rowId)) \n    || {[\"PRODUCT SOURCING\"]: \"❌ ❌ Konten Tidak Tersedia ❌ ❌\" })[\"PRODUCT SOURCING\"] \n}}\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 1,
